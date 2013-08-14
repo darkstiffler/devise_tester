@@ -1,4 +1,11 @@
 DeviseTester::Application.routes.draw do
+  get "registration/cancel"
+  get "registration/create"
+  get "registration/new"
+  get "registration/edit"
+  get "registration/update"
+  get "registration/destroy"
+  devise_for :users
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
