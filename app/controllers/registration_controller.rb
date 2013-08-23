@@ -1,5 +1,4 @@
 class RegistrationController < ApplicationController
-
   def cancel
   end
 
@@ -17,5 +16,4 @@ class RegistrationController < ApplicationController
 
   def destroy
   end
-
 end
